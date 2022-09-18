@@ -1,6 +1,7 @@
+
 {
   "expo": {
-    "name": "chat",
+    "name": "justChat",
     "slug": "chat",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,16 +18,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.justChat.justChat"
     },
     "android": {
+      "package": "com.justChat.justChat",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
+    
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
   }
-}
+} 
